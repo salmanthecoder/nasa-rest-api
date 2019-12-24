@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PlanetInfoController {
     @Autowired
     private PlanetInfoService planetInfoService;
-    @RequestMapping("/planet-info")
+    @RequestMapping("/planet/info")
     public PlanetDetails getPlanetDetails() throws Exception {
         return planetInfoService.getPlanetDetalis();
     }

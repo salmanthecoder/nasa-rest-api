@@ -16,7 +16,7 @@ private RestTemplate restTemplate;
     public PlanetDetails getPlanetDetalis() throws Exception {
 
         PlanetDetails planetDetails = restTemplate.getForObject(
-                "https://api.nasa.gov/planetary/apod?api_key=N8L546fvQOpfWDb2aUPDFlQouZVaZCxlb5tZ08eo", PlanetDetails.class);
+                "https://api.nasa.gov/planetary/apod?api_key=o6JapvYNSOFqep27eXiK09IZNmYNqzpZx0dBe1JI", PlanetDetails.class);
         return planetDetails;
     }
 }
